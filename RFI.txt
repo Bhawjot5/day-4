@@ -1,0 +1,37 @@
+<html>
+<head> <title> Local and remote file inclusion attack</title> </head>
+<body TEXT = "White">
+<body background= "130.jpg"> 
+<h1> Remote File Inclusion(RFI) </h1>
+
+
+
+
+<p>What is RFI</p>
+<p>Ans.RFI is an attack targeting vulnerabilties in web application</p>
+<p>the dynamically reference external scripts.the perpetrator's goal</p>
+<p>is to exploit th referncing function in an application to upload </p>
+<p>malware (e.g.,backdoor sheells) from a remote URL located within </p>
+<p>a diffrent domain.</p>
+
+<p>The consequences of a succesfully RFI attack include information </p>
+<p>theft, compromised servers and a site takeover that allows for </p>
+<p>content modification.</p>
+  
+<p>The graph below illustrates the typical flow of a RFI attack.</p> 
+
+<h1> How Attackers do this</h1>
+
+<li>Attacker uses a search engine to indentify a website with vurlnerable components</li>
+                            <p>OR</P>
+<li>Attacker uses a sccaner to indetify a website with vulnerable components</li> 
+                             <p> so it directly target to </p>
+<li>Attacker expolits the remote file inclusion vurlnerability to upload a backdoor sheel</li>
+                              <P> and this happend</p>
+<li> site is compromised = Malware is installed. Pages are defaced or deleted .</li>
+                               <p>OR</P>
+<li>Server is Hijacked = Server is used as a DDOS bot several sites are comprised.</li>
+                                <p>OR</P>
+<li>Data is compromised = Passwords and information are stolen 
+
+</body>

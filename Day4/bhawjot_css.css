@@ -1,0 +1,11 @@
+/* three ways
+
+1. via ID 
+2. via className 
+3. via TagName
+
+*/
+
+body{
+    background-color: violet;
+}

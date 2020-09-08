@@ -1,0 +1,49 @@
+<html>
+<head> <title> Local File Inclusion (LFI) </title> </head>
+<body>
+<h1>  Local File Inclusion (LFI) </h1>
+
+
+
+
+<p> An attacker can use Local File Inclusion (LFI) to trick the web application into exposing or running files on the web server.</p>
+<p>An LFI attack may lead to information disclosure, remote code execution, or even Cross-site Scripting (XSS). Typically,</p>
+<p>LFI occurs when an application uses the path to a file as input. If the application treats this input as trusted,</p>
+<p>a local file may be used in the include statement.</p>
+
+<p>Local File Inclusion is very similar to Remote File Inclusion (RFI). However, an attacker using LFI may only include local</p>
+<p>files (not remote files like in the case of RFI).</p>
+
+<h1>The following is an example of PHP code that is vulnerable to LFI.</h1>
+
+<p>/**</p>
+<p>* Get the filename from a GET</p>
+<p>* Example - http://example.com/?file=filename.php</p>
+<p>*/</p>
+<p>$file = $_GET['file'];</p>
+
+<p>/**</p>
+<p>* Unsafely include the file</p>
+<p>* Example - filename.php</p>
+<p>*/</p>
+<p>include('directory/' . $file);</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
