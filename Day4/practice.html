@@ -3,14 +3,31 @@
   <!-- HTML = Hyper text markup language -->
   <head>
     <title>Ways of CSS connections</title>
-    <link rel="stylesheet" href="bhawjot_css.css" />
+
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="bhawjot_css.css"/>
+    
+    
     <style>
+      /* Internal css */
       body {
         background-color: black;
       }
+
+      /* use css by element ID */
+      #mytable{
+        color:blue;
+      }
+
+      .table-class{
+        font-size: 42px;
+      }
     </style>
+
+
   </head>
-  <body style="background-color: blue ">
+  <body style="background-color: white">
     <table id="mytable" class="table-class">
       <tr>
         <td>How many ways to connect css with HTML Document?</td>
