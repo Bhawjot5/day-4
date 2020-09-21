@@ -1,3 +1,4 @@
-Today's Activities:
-**JavaScript Introduction ; why and what ? **
-** JavaScript Experiment **
+Home work task
+-[] Try to understand what we have experimented
+-[] Make this file again in the home folder
+ 
