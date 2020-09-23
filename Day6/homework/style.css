@@ -1,0 +1,13 @@
+.jsClass{
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.heading{
+    margin-top: 78px;
+    margin-left: 56px;
+}
