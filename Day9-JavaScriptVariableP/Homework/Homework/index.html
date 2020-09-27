@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="format.css">
+    <title>Day 9 : JavaScript Program to learn variables </title>
+</head>
+
+<body>
+
+    <h2>Calculator:</h2>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Operation</th>
+                <th>Inputs</th>
+                <th>Output</th>
+                <th>Press Here!</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong> Addition </strong></td>
+                <td scope="row">
+                    <!-- <h3>Addition</h3> -->
+                    <label> <strong> value 1 : </strong></label>
+                    <input type="number" id="add_value1">
+                    <label> <strong> value 2 : </strong></label>
+                    <input type="number" id="add_value2">
+                </td>
+                <td>
+                    <p id="add_result">0</p>
+                </td>
+                <td>
+                    <button id="add_button" class="button" onclick="add()"> Press here! </button>
+                </td>
+            </tr>
+            <td><strong> subtraction </strong></td>
+            <td scope="learn">
+                <!-- <h3>Subtraction</h3> -->
+                <label> <strong> value 3 : </strong></label>
+                <input type="number" id="sub_value3">
+                <label> <strong> value 4 : </strong></label>
+                <input type="number" id="sub_value4">
+            </td>
+            <td>
+                <p id="sub_result">0</p>
+            </td>
+            <td>
+                <button id="sub_button" class="button" onclick="sub()"> Press here! </button>
+            </td>
+            </tr>
+            <td><strong> Division </strong></td>
+            <td scope="hello">
+                <!-- <h3>Division</h3> -->
+                <label> <strong> value 5 : </strong></label>
+                <input type="number" id="div_value5">
+                <label> <strong> value 6 : </strong></label>
+                <input type="number" id="div_value6">
+            </td>
+            <td>
+                <p id="div_result">0</p>
+            </td>
+            <td>
+                <button id="div_button" class="button" onclick="div()"> Press here! </button>
+            </td>
+            </tr>
+            <td><strong> Multipication </strong></td>
+            <td scope="learn">
+                <!-- <h3> Multipication </h3> -->
+                <label> <strong> value 7 : </strong></label>
+                <input type="number" id="mul_value7">
+                <label> <strong> value 8 : </strong></label>
+                <input type="number" id="mul_value8">
+            </td>
+            <td>
+                <p id="mul_result">0</p>
+            </td>
+            <td>
+                <button id="mul_button" class="button" onclick="mul()"> Press here! </button>
+            </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

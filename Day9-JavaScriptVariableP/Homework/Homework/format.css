@@ -1,0 +1,35 @@
+.jsClass{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position: absolute;
+    /* left: 50px;
+    top: 60px; */
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.heading{
+    margin-top: 78px;
+    margin-left: 56px;
+}
+
+.table, tr, td ,th{
+    border: 1px solid black;
+}
+
+th{
+    background-color: lightgray;
+}
+
+.button{
+    padding: 10px;
+    width: 64px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: lightgreen;
+    border-radius: 100%;
+    border-color: lightgreen;
+}
